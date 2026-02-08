@@ -1,0 +1,20 @@
+{
+  "name": "eslint-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate with ESLint issues and third-party plugin rules.",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint main.js",
+    "lint:fix": "eslint main.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-jsdoc": "^48.2.3",
+    "eslint-plugin-prettier": "5.5.3",
+    "prettier": "3.6.2"
+  }
+}

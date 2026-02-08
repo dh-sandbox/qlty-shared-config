@@ -1,0 +1,74 @@
+# This is a source toml which will be shared to other repos during Qlty analysis
+#
+# This configuration is used by both Qlty CLI and Qlty Cloud.
+#
+#     Qlty CLI -- Code quality toolkit for developers
+#     Qlty Cloud -- Fully automated Code Health Platform
+#
+# Try Qlty Cloud: https://qlty.sh
+#
+# For a guide to configuration, visit https://qlty.sh/d/config
+# Or for a full reference, visit https://qlty.sh/d/qlty-toml
+config_version = "0"
+a
+exclude_patterns = [
+  # Debug binaries
+  "**/__debug_bin",
+
+  # Test coverage and CI artifacts
+  "**/c.out",
+  "**/junit.xml",
+
+  # Temporary files
+  "**/tmp/**",
+  "**/git_clones/**",
+]
+
+test_patterns = [
+  "**/testdata/**",
+  "**/testhelper/**",
+  "**/*_test.go",
+  "**/*_mock.go",
+  "**/*mock*/**",
+]
+
+[smells]
+mode = "comment"
+
+[[source]]
+name = "default"
+default = true
+
+[[plugin]]
+name = "gofmt"
+mode = "comment"
+
+[[plugin]]
+name = "golangci-lint"
+version = "2.7.0"
+mode = "comment"
+
+[[plugin]]
+name = "radarlint-go"
+mode = "monitor"
+
+[[plugin]]
+name = "ripgrep"
+mode = "monitor"
+
+[[plugin]]
+name = "shellcheck"
+mode = "monitor"
+
+[[plugin]]
+name = "markdownlint"
+config_files = [".markdownlint.json", ".markdownlintignore"]
+mode = "monitor"
+
+# NOTE: exported_config_paths removed for testing
+
+
+
+
+
+
