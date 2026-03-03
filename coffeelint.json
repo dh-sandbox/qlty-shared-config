@@ -1,0 +1,6 @@
+{
+  "no_debugger": {
+    "level": "warn",
+    "console": "warn"
+  }
+}
