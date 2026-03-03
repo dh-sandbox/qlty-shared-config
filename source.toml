@@ -38,6 +38,8 @@ mode = "monitor"
 exported_config_paths = ["coffeelint.json"]
 
 
+[plugins.definitions.coffeelint.drivers.lint]
+script = "coffeelint -config-file ${config_file} -format \"{{json .}}\" ${target}"
 
 
 
