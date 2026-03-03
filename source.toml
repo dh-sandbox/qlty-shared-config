@@ -30,16 +30,14 @@ default = true
 
 [[plugin]]
 name = "coffeelint"
-config_files = ["coffeelint.json"]
 mode = "monitor"
 
 # Export the config files so child repos receive them
 [plugins.definitions.coffeelint]
+config_files = ["coffeelint.json"]
 exported_config_paths = ["coffeelint.json"]
 
 
-[plugins.definitions.coffeelint.drivers.lint]
-script = "coffeelint -config-file ${config_file} -format \"{{json .}}\" ${target}"
 
 
 
