@@ -29,6 +29,10 @@ name = "default"
 default = true
 
 [[plugin]]
+name = "rubocop"
+enabled = true
+
+[[plugin]]
 name = "coffeelint"
 mode = "monitor"
 
