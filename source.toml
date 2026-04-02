@@ -33,6 +33,12 @@ name = "rubocop"
 enabled = true
 
 [[plugin]]
+name = "ruff"
+drivers = [
+  "lint",
+]
+
+[[plugin]]
 name = "coffeelint"
 mode = "monitor"
 
