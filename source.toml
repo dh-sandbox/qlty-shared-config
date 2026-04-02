@@ -47,7 +47,7 @@ name = "rubocop"
 config_files = [".rubocop.yml"]
 # Export the rubocop config files so child repos receive them
 [plugins.definitions.rubocop]
-exported_config_paths = ["rubocop.yml"]
+exported_config_paths = [".rubocop.yml"]
 
 
 
