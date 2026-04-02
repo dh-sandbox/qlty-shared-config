@@ -5,28 +5,28 @@ AllCops:
 Metrics/MethodLength:
   Max: 5
 
-Style/Documentation:
-  Enabled: false
+# Style/Documentation:
+#   Enabled: false
 
-Style/FrozenStringLiteralComment:
-  EnforcedStyle: always
+# Style/FrozenStringLiteralComment:
+#   EnforcedStyle: always
 
-Layout/LineLength:
-  Max: 3
-  Enabled: true
+# Layout/LineLength:
+#   Max: 3
+#   Enabled: true
 
-Metrics/AbcSize:
-  Max: 5
-  Enabled: true
+# Metrics/AbcSize:
+#   Max: 5
+#   Enabled: true
 
-Metrics/CyclomaticComplexity:
-  Max: 5
-  Enabled: true
+# Metrics/CyclomaticComplexity:
+#   Max: 5
+#   Enabled: true
 
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
-  Enabled: true
+# Style/StringLiterals:
+#   EnforcedStyle: double_quotes
+#   Enabled: true
 
-Metrics/BlockLength:
-  Max: 5
-  Enabled: true
+# Metrics/BlockLength:
+#   Max: 5
+#   Enabled: true
