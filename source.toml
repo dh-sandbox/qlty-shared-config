@@ -28,9 +28,6 @@ mode = "comment"
 name = "default"
 default = true
 
-[[plugin]]
-name = "rubocop"
-enabled = true
 
 [[plugin]]
 name = "ruff"
@@ -41,13 +38,16 @@ drivers = [
 [[plugin]]
 name = "coffeelint"
 mode = "monitor"
-
-# Export the config files so child repos receive them
 [plugins.definitions.coffeelint]
 config_files = ["coffeelint.json"]
 exported_config_paths = ["coffeelint.json"]
 
-
+[[plugin]]
+name = "rubocop"
+config_files = [".rubocop.yml"]
+# Export the rubocop config files so child repos receive them
+[plugins.definitions.rubocop]
+exported_config_paths = ["rubocop.yml"]
 
 
 
