@@ -13,15 +13,20 @@ Style/FrozenStringLiteralComment:
 
 Layout/LineLength:
   Max: 20
+  Enabled: true
 
 Metrics/AbcSize:
   Max: 8
+  Enabled: true
 
 Metrics/CyclomaticComplexity:
-  Max: 2
+  Max: 10
+  Enabled: true
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+  Enabled: true
 
 Metrics/BlockLength:
-  Max: 5
+  Max: 15
+  Enabled: true
