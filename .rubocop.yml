@@ -12,15 +12,15 @@ Style/FrozenStringLiteralComment:
   EnforcedStyle: always
 
 Layout/LineLength:
-  Max: 20
+  Max: 3
   Enabled: true
 
 Metrics/AbcSize:
-  Max: 8
+  Max: 5
   Enabled: true
 
 Metrics/CyclomaticComplexity:
-  Max: 10
+  Max: 5
   Enabled: true
 
 Style/StringLiterals:
@@ -28,5 +28,5 @@ Style/StringLiterals:
   Enabled: true
 
 Metrics/BlockLength:
-  Max: 15
+  Max: 5
   Enabled: true
