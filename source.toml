@@ -44,9 +44,8 @@ exported_config_paths = ["coffeelint.json"]
 
 [[plugin]]
 name = "rubocop"
-config_files = [".rubocop.yml"]
-# Export the rubocop config files so child repos receive them
 [plugins.definitions.rubocop]
+config_files = [".rubocop.yml"]
 exported_config_paths = [".rubocop.yml"]
 
 
