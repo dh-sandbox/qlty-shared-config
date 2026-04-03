@@ -42,11 +42,11 @@ mode = "monitor"
 config_files = ["coffeelint.json"]
 exported_config_paths = ["coffeelint.json"]
 
-[[plugin]]
-name = "rubocop"
-[plugins.definitions.rubocop]
-config_files = [".rubocop.yml"]
-exported_config_paths = [".rubocop.yml"]
+# [[plugin]]
+# name = "rubocop"
+# [plugins.definitions.rubocop]
+# config_files = [".rubocop.yml"]
+# exported_config_paths = [".rubocop.yml"]
 
 
 
