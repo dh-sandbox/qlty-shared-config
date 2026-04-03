@@ -48,9 +48,8 @@ name = "rubocop"
 config_files = [".rubocop.yml"]
 exported_config_paths = [".rubocop.yml"]
 
-
-
-
-
-
-
+[[plugin]]
+name = "prettier"
+[plugins.definitions.prettier]
+config_files = [".prettierrc"]
+exported_config_paths = [".prettierrc"]
