@@ -1,4 +1,97 @@
-  AllCops:
+AllCops:
     TargetRubyVersion: 3.2
     NewCops: enable
     DisabledByDefault: true
+
+Layout/LineLength:
+  Max: 50
+
+Layout/ClassStructure:
+  Enabled: true
+
+Layout/ExtraSpacing:
+  AllowForAlignment: true
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
+Layout/FirstMethodParameterLineBreak:
+  Enabled: true
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/MultilineArrayBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineHashBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineMethodCallBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  EnforcedStyle: new_line
+
+Metrics/BlockLength:
+  Max: 25
+  CountAsOne: ['array', 'hash', 'heredoc']
+
+Metrics/BlockNesting:
+  Max: 3
+
+Metrics/ClassLength:
+  Max: 150
+  CountAsOne: ['array', 'hash', 'heredoc']
+
+Metrics/CyclomaticComplexity:
+  Max: 6
+
+Metrics/PerceivedComplexity:
+  Max: 8
+
+Style/CollectionMethods:
+  Enabled: true
+
+Style/ConditionalAssignment:
+  EnforcedStyle: assign_inside_condition
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Style/GuardClause:
+  MinBodyLength: 6
+
+Style/ImplicitRuntimeError:
+  Enabled: true
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
+Style/MissingElse:
+  Enabled: true
+
+Style/ModuleFunction:
+  Enabled: true
+
+Style/NegatedIf:
+  EnforcedStyle: postfix
+
+Style/NumericLiterals:
+  MinDigits: 3
+
+Style/RedundantException:
+  Enabled: true
+
+
+
+
