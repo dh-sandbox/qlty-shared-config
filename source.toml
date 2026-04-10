@@ -29,11 +29,11 @@ name = "default"
 default = true
 
 
-[[plugin]]
-name = "ruff"
-drivers = [
-  "lint",
-]
+# [[plugin]]
+# name = "ruff"
+# drivers = [
+#   "lint",
+# ]
 
 [[plugin]]
 name = "coffeelint"
