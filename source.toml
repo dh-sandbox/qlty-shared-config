@@ -55,4 +55,4 @@ config_files = [".prettierrc"]
 exported_config_paths = [".prettierrc"]
 
 [[plugin]]
-name = "black
+name = "black"
