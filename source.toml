@@ -53,3 +53,6 @@ name = "prettier"
 [plugins.definitions.prettier]
 config_files = [".prettierrc"]
 exported_config_paths = [".prettierrc"]
+
+[[plugin]]
+name = "black
